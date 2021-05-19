@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* border-right: 1px solid lightgray; */
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0.60;
+    /* min-width: 6vw; */
+}
+
+.header__right > .MuiSvgIcon-root {
+    margin-right: 2vw;
+    font-size: 24px !important;
+}

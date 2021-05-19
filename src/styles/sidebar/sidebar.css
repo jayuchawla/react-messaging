@@ -1,0 +1,36 @@
+/* use 35% of available max space */
+.sidebar {
+    flex: 0.35;
+    /* will enable to have a vertical orientation */
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar__search {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 39px;
+    background-color: #f6f6f6;
+}
+
+.sidebar__searchContainer > .MuiSvgIcon-root {
+    color:gray;
+    padding: 10px;
+}
+
+.sidebar__searchContainer > input {
+    flex: 0.9;
+    border: none;
+} 
+
+.sidebar__searchContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    height: 35px;
+    border-radius: 17px;
+    /* padding: 0 10px 0 10px; */
+}

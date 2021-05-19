@@ -1,0 +1,23 @@
+.chat {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #F6F6F6;
+    cursor: pointer;
+}
+
+.chat:hover{
+    background-color: #EBEBEB;
+}
+
+.chat__info > h3 {
+    margin-bottom: 1px;
+}
+
+.chat__info > p {
+    font-size: 15px;
+}
+
+.chat__info {
+    margin-left: 15px;
+}
