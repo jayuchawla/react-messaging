@@ -1,0 +1,2 @@
+export const backgroundImage = 'https://i.pinimg.com/originals/fb/17/70/fb177004e3177e28f25f7ef1895090aa.jpg';
+export const logo = 'https://images.vexels.com/media/users/3/132364/isolated/preview/cebb44aff5e2332d52de27606954c419-support-chat-circle-icon-by-vexels.png';

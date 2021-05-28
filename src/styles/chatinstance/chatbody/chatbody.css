@@ -1,0 +1,9 @@
+.chatbody {
+    flex: 1;
+    background-image: url('https://i.redd.it/qwd83nc4xxf41.jpg');
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow-y: scroll;
+
+}

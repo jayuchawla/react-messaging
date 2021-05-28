@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import reducer, { initialState } from './components/util/user_state_management/Reducer';
+import { StateProvider } from './components/util/user_state_management/StateProvider';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* // https://www.youtube.com/watch?v=tEqNSOhCHLU&t=291s */}
+    <StateProvider initialState={initialState} reducer={reducer}>
+      <App />
+    </StateProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

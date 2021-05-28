@@ -1,0 +1,59 @@
+.logo__container {
+    height: 400px;
+    width: 400px;
+    align-items: center;
+}
+
+.div1 {
+    height: 100%;
+    width: 100%;
+    background-color: lightgreen;
+    border-radius: 30%;
+    padding: 60px;
+    display: grid;
+    place-items: center;
+}
+
+.div2 {
+    height: 90%;
+    width: 90%;
+    background-color: white;
+    border-radius: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.div3 {
+    height: 60%;
+    width: 60%;
+    background-color: lightgreen;
+    border-radius: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.div3 > .eyes {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.div3 > .eyes > div {
+    height: 100%;
+    width: 25%;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.div3 > .mouth {
+    height: 25%;
+    width: 30%;
+    background-color: black;
+    margin: 0 auto;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+

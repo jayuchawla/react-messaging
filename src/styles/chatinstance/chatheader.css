@@ -1,0 +1,28 @@
+.chatheader {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    flex: 0.05;
+}
+
+.chatheader__info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.chatheader__info > p{
+    color: darkgray;
+    margin-top: 2px;    
+}
+
+.chatheader__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 100px;
+}

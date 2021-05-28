@@ -1,0 +1,69 @@
+.login {
+    background-color: #f8f8f8;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login__container {
+    padding: 90px;
+    text-align: center;
+    background-color: rgb(213, 232, 238);
+    border-radius: 10px;
+    box-shadow: 0px 20px 20px rgba(0,0,0,0.2);
+    min-width: 400px;
+}
+
+.login__container > img {
+    object-fit: contain;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.login__container > .login__button {
+    margin-top: 50px;
+    text-transform: inherit !important;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: rgb(59,113,129) !important;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.login__container > .other_options {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.login__container > .other_options > button {
+    background-color: rgb(59,113,129) !important;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    text-transform: inherit !important;
+
+}
+
+.credentials {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.credentials > input {
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+.credentials > input:focus {
+    outline: none;
+    border: none;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}

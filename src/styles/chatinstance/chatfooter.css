@@ -1,0 +1,36 @@
+.chatfooter {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+}
+
+.chatfooter > form {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.chatfooter > form > input {
+    border: none !important;
+    min-width: 300px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 15px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.chatfooter > form > input:focus {
+    outline: none !important;
+}
+
+.chatfooter > form > button {
+    display: none;
+}
+
+.chatfooter > .MuiSvgIcon-root {
+    padding: 10px;
+    color: darkgray;
+}

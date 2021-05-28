@@ -2,15 +2,16 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    /* border-right: 1px solid lightgray; */
+    border-right: 1px solid #d9dad8;
+    flex: 0.05;
+    
 }
 
 .header__right {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex: 0.60;
-    /* min-width: 6vw; */
+    min-width: 6vw;
 }
 
 .header__right > .MuiSvgIcon-root {

@@ -1,4 +1,5 @@
 .chatinstance {
     flex: 0.65;
-    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
 }

@@ -5,11 +5,13 @@ import ChatIcon from '@material-ui/icons/Chat';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 import '../../styles/sidebar/header.css';
+import { useStateValue } from '../util/user_state_management/StateProvider';
 
 function Header() {
+    const [{ user }, dispatch] = useStateValue();
     return (
         <div className="header">
-            <Avatar />
+            <Avatar src={user ? `${user.photoURL}` : null}/>
             <div className="header__right">
                 {/* IconButton wrapper lets you create ripple effect on click */}
                 <IconButton>
